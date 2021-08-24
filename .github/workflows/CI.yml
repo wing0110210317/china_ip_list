@@ -2,7 +2,7 @@ name: CI
 
 on:
   #schedule:
-  #  - cron: 0 20 * * *
+  #  - cron: 12 20 * * *
   push:
     branches: [ master ]
   pull_request:

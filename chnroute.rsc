@@ -1,4 +1,4 @@
-#Last Modified: Tue Aug 24 12:42:55 UTC 2021
+#Last Modified: Thu Aug 26 12:53:52 UTC 2021
 /log info "Start updating CN_IP_List!"
 /log info "Start removing old list!"
 /ip firewall address-list remove [/ip firewall address-list find list=CNIP]
@@ -299,7 +299,6 @@ add list=CNIP address=43.225.76.0/22
 add list=CNIP address=43.225.84.0/22 
 add list=CNIP address=43.225.120.0/22 
 add list=CNIP address=43.225.124.0/22 
-add list=CNIP address=43.225.140.0/22 
 add list=CNIP address=43.225.172.0/22 
 add list=CNIP address=43.225.180.0/22 
 add list=CNIP address=43.225.208.0/22 
@@ -5059,7 +5058,6 @@ add list=CNIP address=103.240.36.0/22
 add list=CNIP address=103.240.72.0/22 
 add list=CNIP address=103.240.84.0/22 
 add list=CNIP address=103.240.124.0/22 
-add list=CNIP address=103.240.156.0/22 
 add list=CNIP address=103.240.172.0/22 
 add list=CNIP address=103.240.188.0/22 
 add list=CNIP address=103.240.244.0/22 

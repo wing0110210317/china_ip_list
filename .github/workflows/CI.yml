@@ -1,7 +1,7 @@
 name: CI
 
 on:
-  #schedule:
+   schedule:
      - cron: 51 20 * * *
   push:
     branches: [ master ]

@@ -1,8 +1,8 @@
 name: CI
 
 on:
-   schedule:
-     - cron: 53 20 * * *
+  schedule:
+    - cron: 53 20 * * *
   push:
     branches: [ master ]
   pull_request:

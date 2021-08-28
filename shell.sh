@@ -7,5 +7,4 @@ nets=`cat ./chnroute.txt`
 for net in $nets ; do
   echo "add list=CNIP address=$net "
 done
-echo "/log info \"Importing CN_IP_List finished!\""
 } > chnroute.rsc 

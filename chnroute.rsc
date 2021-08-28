@@ -1,4 +1,4 @@
-#Last Modified: Fri Aug 27 03:39:19 UTC 2021
+#Last Modified: Sat Aug 28 01:19:27 UTC 2021
 /ip firewall address-list
 remove [/ip firewall address-list find list=CNIP]
 add list=CNIP address=1.0.1.0/24 
@@ -8625,4 +8625,3 @@ add list=CNIP address=223.254.0.0/16
 add list=CNIP address=223.255.0.0/17 
 add list=CNIP address=223.255.236.0/22 
 add list=CNIP address=223.255.252.0/23 
-/log info "Importing CN_IP_List finished!"

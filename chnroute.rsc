@@ -1,4 +1,4 @@
-#Last Modified: Mon Sep 16 03:02:31 UTC 2024
+#Last Modified: Tue Sep 17 02:33:51 UTC 2024
 /ip firewall address-list
 remove [/ip firewall address-list find list=CNIP]
 add list=CNIP address=1.0.1.0/24 

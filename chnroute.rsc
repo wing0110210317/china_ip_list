@@ -1,4 +1,4 @@
-#Last Modified: Mon Dec  8 03:40:10 UTC 2025
+#Last Modified: Tue Dec  9 03:36:09 UTC 2025
 /ip firewall address-list
 remove [/ip firewall address-list find list=CNIP]
 add list=CNIP address=1.0.1.0/24 
@@ -306,14 +306,11 @@ add list=CNIP address=43.225.120.0/22
 add list=CNIP address=43.225.172.0/22 
 add list=CNIP address=43.225.180.0/22 
 add list=CNIP address=43.225.208.0/22 
-add list=CNIP address=43.225.216.0/22 
-add list=CNIP address=43.225.220.0/22 
-add list=CNIP address=43.225.224.0/22 
-add list=CNIP address=43.225.228.0/22 
+add list=CNIP address=43.225.216.0/21 
+add list=CNIP address=43.225.224.0/21 
 add list=CNIP address=43.225.232.0/22 
 add list=CNIP address=43.225.236.0/22 
-add list=CNIP address=43.225.240.0/22 
-add list=CNIP address=43.225.244.0/22 
+add list=CNIP address=43.225.240.0/21 
 add list=CNIP address=43.225.252.0/22 
 add list=CNIP address=43.226.32.0/22 
 add list=CNIP address=43.226.36.0/22 
@@ -2595,8 +2592,7 @@ add list=CNIP address=103.44.184.0/22
 add list=CNIP address=103.44.188.0/22 
 add list=CNIP address=103.44.192.0/22 
 add list=CNIP address=103.44.196.0/22 
-add list=CNIP address=103.44.200.0/22 
-add list=CNIP address=103.44.204.0/22 
+add list=CNIP address=103.44.200.0/21 
 add list=CNIP address=103.44.224.0/22 
 add list=CNIP address=103.44.236.0/22 
 add list=CNIP address=103.44.240.0/22 
@@ -5426,7 +5422,15 @@ add list=CNIP address=116.56.0.0/15
 add list=CNIP address=116.58.128.0/20 
 add list=CNIP address=116.58.208.0/20 
 add list=CNIP address=116.60.0.0/14 
-add list=CNIP address=116.66.0.0/17 
+add list=CNIP address=116.66.0.0/18 
+add list=CNIP address=116.66.64.0/19 
+add list=CNIP address=116.66.96.0/20 
+add list=CNIP address=116.66.112.0/21 
+add list=CNIP address=116.66.120.0/24 
+add list=CNIP address=116.66.121.0/24 
+add list=CNIP address=116.66.122.0/24 
+add list=CNIP address=116.66.123.0/24 
+add list=CNIP address=116.66.124.0/22 
 add list=CNIP address=116.68.136.0/22 
 add list=CNIP address=116.68.140.0/22 
 add list=CNIP address=116.68.176.0/22 
@@ -5649,7 +5653,16 @@ add list=CNIP address=119.15.136.0/21
 add list=CNIP address=119.16.0.0/16 
 add list=CNIP address=119.18.192.0/20 
 add list=CNIP address=119.18.208.0/21 
-add list=CNIP address=119.18.224.0/20 
+add list=CNIP address=119.18.224.0/24 
+add list=CNIP address=119.18.225.0/24 
+add list=CNIP address=119.18.226.0/24 
+add list=CNIP address=119.18.227.0/24 
+add list=CNIP address=119.18.228.0/22 
+add list=CNIP address=119.18.232.0/23 
+add list=CNIP address=119.18.234.0/24 
+add list=CNIP address=119.18.235.0/24 
+add list=CNIP address=119.18.236.0/23 
+add list=CNIP address=119.18.238.0/23 
 add list=CNIP address=119.18.240.0/20 
 add list=CNIP address=119.19.0.0/16 
 add list=CNIP address=119.20.0.0/14 
@@ -6152,6 +6165,7 @@ add list=CNIP address=144.79.28.0/23
 add list=CNIP address=144.79.42.0/23 
 add list=CNIP address=144.79.54.0/23 
 add list=CNIP address=144.79.70.0/23 
+add list=CNIP address=144.79.84.0/23 
 add list=CNIP address=144.123.0.0/16 
 add list=CNIP address=144.255.0.0/16 
 add list=CNIP address=146.56.192.0/18 

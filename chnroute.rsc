@@ -1,4 +1,4 @@
-#Last Modified: Fri Jun 12 06:57:21 UTC 2026
+#Last Modified: Sat Jun 13 06:33:58 UTC 2026
 /ip firewall address-list
 remove [/ip firewall address-list find list=CNIP]
 add list=CNIP address=1.0.1.0/24 
@@ -6410,7 +6410,6 @@ add list=CNIP address=163.204.0.0/16
 add list=CNIP address=163.223.28.0/23 
 add list=CNIP address=163.223.32.0/23 
 add list=CNIP address=163.223.124.0/23 
-add list=CNIP address=163.223.156.0/23 
 add list=CNIP address=163.223.173.0/24 
 add list=CNIP address=163.223.178.0/23 
 add list=CNIP address=163.223.216.0/23 
